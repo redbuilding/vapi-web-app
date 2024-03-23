@@ -1,0 +1,35 @@
+# General
+.DS_Store
+
+# Backend-specific
+backend/venv/
+backend/*.pyc
+backend/__pycache__/
+backend/.env
+backend/.env.local
+backend/node_modules/
+backend/dist/
+
+# Frontend-specific
+frontend/.env
+frontend/.env.local
+frontend/.vuepress/dist
+frontend/node_modules/
+frontend/dist/
+frontend/yarn-error.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

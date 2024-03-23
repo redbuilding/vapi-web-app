@@ -1,0 +1,4 @@
+Flask
+Flask-CORS
+requests
+python-dotenv
